@@ -1,5 +1,3 @@
---- START OF FILE CodeWeaverAI Quick Start Guide.md ---
-
 # 🤖 CodeWeaverAI - Quickstart Guide 🚀
 
 ## Table of Contents 📑
@@ -313,5 +311,4 @@ A6: Here are some tips for getting the most out of CodeWeaverAI:
 CodeWeaverAI is a valuable tool for developers looking to leverage the power of AI in their workflow. It simplifies the process of preparing your codebase for AI interaction, enabling you to gain insights, automate tasks, and build better software.
 
 We encourage you to explore the capabilities of CodeWeaverAI, experiment with different features, and provide feedback to help us improve the application. As AI continues to advance, tools like CodeWeaverAI will become increasingly essential for developers who want to stay ahead of the curve.
---- END OF FILE CodeWeaverAI Quick Start Guide.md --- 
 
