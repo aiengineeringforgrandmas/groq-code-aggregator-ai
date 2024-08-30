@@ -1,4 +1,4 @@
-# 🤖 CodeWeaverAI - Quickstart Guide 🚀
+# 🤖 CodeAggregatorAI - Quickstart Guide 🚀
 
 ## Table of Contents 📑
 - [1. Introduction](#1-introduction)
@@ -26,7 +26,7 @@
 
 ## 1. Introduction <a name="1-introduction"></a>
 
-CodeWeaverAI is a powerful Streamlit application designed to assist users in preparing and analyzing codebases for use with AI models. It aggregates an entire GitHub repository into a single, organized Markdown file, making it easy to feed to AI systems for tasks like code summarization, question answering, and code generation. 🧠
+CodeAggregatorAI is a powerful Streamlit application designed to assist users in preparing and analyzing codebases for use with AI models. It aggregates an entire GitHub repository into a single, organized Markdown file, making it easy to feed to AI systems for tasks like code summarization, question answering, and code generation. 🧠
 
 Key Features:
 - Aggregates all files from a GitHub repository, including code, documentation, and configuration files.
@@ -37,7 +37,7 @@ Key Features:
 
 ## 2. Setup and Installation <a name="2-setup-and-installation"></a>
 
-To run the CodeWeaverAI application, you'll need to set up your environment and install the necessary dependencies. 🏗️
+To run the CodeAggregatorAI application, you'll need to set up your environment and install the necessary dependencies. 🏗️
 
 ### 2.1 Installing Miniconda <a name="21-installing-miniconda"></a>
 
@@ -79,16 +79,16 @@ chmod +x Miniconda3-latest-MacOSX-x86_64.sh
 ### 2.2 Creating a Conda Environment <a name="22-creating-a-conda-environment"></a>
 
 1. Open your terminal (Command Prompt for Windows, Terminal for macOS).
-2. Create a new Conda environment named `codeweaver-env` with Python 3.12 (or your preferred version):
+2. Create a new Conda environment named `codeaggregator-env` with Python 3.12 (or your preferred version):
 
 ```bash
-conda create -n codeweaver-env python=3.12
+conda create --name codeaggregator-env python=3.12
 ```
 
 3. Activate the new environment:
 
 ```bash
-conda activate codeweaver-env
+conda activate codeaggregator-env
 ```
 
 4.  **To deactivate the environment later:**
@@ -128,7 +128,7 @@ Groq API Key: This special key allows you to tap into Groq's powerful AI models.
 
 4. Run the application:
    ```
-   streamlit run groq-codeweaver-ai.py
+   streamlit run groq-codeaggregator-ai.py 
    ```
 
 ## 3. User Interface Overview <a name="3-user-interface-overview"></a>
@@ -195,7 +195,7 @@ The sidebar contains important settings and configuration options:
 
 ## 6. Advanced Features 🚀 <a name="6-advanced-features"></a> (Future Development)
 
-The following are potential advanced features that could be added to CodeWeaverAI in future versions:
+The following are potential advanced features that could be added to CodeAggregatorAI in future versions:
 
 ### 6.1 Enhanced Code Analysis 🧠 <a name="61-enhanced-code-analysis"></a>
 
@@ -255,22 +255,22 @@ If you encounter errors during codebase generation:
 
 ## 9. FAQ 🤔 <a name="9-faq"></a>
 
-### Q1: What is CodeWeaverAI?
+### Q1: What is CodeAggregatorAI?
 
-A1: CodeWeaverAI is a tool that helps you prepare your codebase for use with AI. It takes your entire GitHub repository and turns it into a single, organized file that AI models can easily understand.
+A1: CodeAggregatorAI is a tool that helps you prepare your codebase for use with AI. It takes your entire GitHub repository and turns it into a single, organized file that AI models can easily understand.
 
-### Q2: Why should I use CodeWeaverAI?
+### Q2: Why should I use CodeAggregatorAI?
 
-A2: Using CodeWeaverAI has several benefits:
+A2: Using CodeAggregatorAI has several benefits:
 
 - **AI-Ready Code:**  It transforms your code into a format that AI models can easily process.
 - **Organization:** It structures your codebase in a clear and logical way.
 - **Efficiency:** It saves you time and effort by automating the process of code aggregation.
 - **Insights:** It allows you to ask questions about your codebase using powerful AI models.
 
-### Q3: How do I use CodeWeaverAI?
+### Q3: How do I use CodeAggregatorAI?
 
-A3: Using CodeWeaverAI is simple:
+A3: Using CodeAggregatorAI is simple:
 
 1. **Provide the GitHub URL:** Enter the URL of your GitHub repository.
 2. **Customize (Optional):** Add custom ignore patterns to exclude specific files or folders.
@@ -287,13 +287,13 @@ A4: You can ask a variety of questions, including:
 - "Find any potential security vulnerabilities in the code."
 - "Generate unit tests for this function."
 
-### Q5: Can I use CodeWeaverAI with private GitHub repositories?
+### Q5: Can I use CodeAggregatorAI with private GitHub repositories?
 
-A5: Yes, you can use CodeWeaverAI with private repositories. However, you'll need to ensure that the application has the necessary permissions to access your repository.
+A5: Yes, you can use CodeAggregatorAI with private repositories. However, you'll need to ensure that the application has the necessary permissions to access your repository.
 
-### Q6: What are some best practices for using CodeWeaverAI?
+### Q6: What are some best practices for using CodeAggregatorAI?
 
-A6: Here are some tips for getting the most out of CodeWeaverAI:
+A6: Here are some tips for getting the most out of CodeAggregatorAI:
 
 - **Use default and custom ignore patterns:**  Exclude unnecessary files to improve efficiency and focus on relevant code.
 - **Choose the right output format:** Select Markdown for readability or JSONL for easier AI processing.
@@ -303,12 +303,11 @@ A6: Here are some tips for getting the most out of CodeWeaverAI:
 ## 10. Version History <a name="10-version-history"></a>
 
 ### v1.0.0 (Current Version)
-- Initial release of CodeWeaverAI
+- Initial release of CodeAggregatorAI
 - Features code aggregation, file analysis, and Groq AI integration
 
 ## Conclusion
 
-CodeWeaverAI is a valuable tool for developers looking to leverage the power of AI in their workflow. It simplifies the process of preparing your codebase for AI interaction, enabling you to gain insights, automate tasks, and build better software.
+CodeAggregatorAI is a valuable tool for developers looking to leverage the power of AI in their workflow. It simplifies the process of preparing your codebase for AI interaction, enabling you to gain insights, automate tasks, and build better software.
 
-We encourage you to explore the capabilities of CodeWeaverAI, experiment with different features, and provide feedback to help us improve the application. As AI continues to advance, tools like CodeWeaverAI will become increasingly essential for developers who want to stay ahead of the curve.
-
+We encourage you to explore the capabilities of CodeAggregatorAI, experiment with different features, and provide feedback to help us improve the application. As AI continues to advance, tools like CodeAggregatorAI will become increasingly essential for developers who want to stay ahead of the curve.
