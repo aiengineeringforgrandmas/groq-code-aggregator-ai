@@ -26,7 +26,7 @@
 
 ## 1. Introduction <a name="1-introduction"></a>
 
-CodeAggregatorAI is a powerful Streamlit application designed to assist users in preparing and analyzing codebases for use with AI models. It aggregates an entire GitHub repository into a single, organized Markdown file, making it easy to feed to AI systems for tasks like code summarization, question answering, and code generation. 🧠
+CodeAggregatorAI is a powerful application designed to aggregate an entire GitHub repository into a single, organized Markdown file, making it easy to feed to AI systems for tasks like code summarization, question answering, refactoring and code generation.  🧠
 
 Key Features:
 - Aggregates all files from a GitHub repository, including code, documentation, and configuration files.
