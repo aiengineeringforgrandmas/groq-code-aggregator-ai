@@ -1,4 +1,4 @@
-# Comprehensive Setup Guide: Conda-CursorIDE-Git-Github-Python-Streamlit
+# Comprehensive Setup Guide: Conda-CursorIDE-Git-Github-Python-Streamlit-Deployment
 
 This guide will walk you through the process of setting up your development environment for working with Git, Github, Conda, Python, the CURSOR IDE (an AI-powered fork of VSCode) and Streamlit. 
 
