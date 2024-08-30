@@ -1,4 +1,4 @@
-# Comprehensive Setup Guide for CURSOR IDE and Streamlit Development and Deployment
+# Comprehensive Setup Guide: Conda-CursorIDE-Git-Github-Python-Streamlit
 
 This guide will walk you through the process of setting up your development environment for working with Git, Github, Conda, Python, the CURSOR IDE (an AI-powered fork of VSCode) and Streamlit. 
 
@@ -29,9 +29,9 @@ This guide will walk you through the process of setting up your development envi
 
 Let's begin with the setup process for MacOS users:
 
-## MacOS Setup
+## 1. MacOS Setup <a name="1-macos-setup"></a>
 
-### Installing Homebrew
+### 1.1 Installing Homebrew <a name="11-installing-homebrew"></a>
 
 Homebrew is a package manager for MacOS that makes it easy to install and manage software. To install Homebrew:
 
@@ -44,7 +44,7 @@ Homebrew is a package manager for MacOS that makes it easy to install and manage
 
 3. Follow the prompts to complete the installation.
 
-### Installing Git (MacOS)
+### 1.2 Installing Git (MacOS) <a name="12-installing-git-macos"></a>
 
 Git is a version control system that you'll use to manage your code. To install Git:
 
@@ -61,7 +61,7 @@ brew install git
 git --version
 ```
 
-### Installing Python (MacOS)
+### 1.3 Installing Python (MacOS) <a name="13-installing-python-macos"></a>
 
 While MacOS comes with Python pre-installed, it's recommended to install a separate version for development:
 
@@ -78,7 +78,7 @@ brew install python
 python3 --version
 ```
 
-### Installing Miniconda (MacOS)
+### 1.4 Installing Miniconda (MacOS) <a name="14-installing-miniconda-macos"></a>
 
 Miniconda is a minimal installer for Conda, which we'll use to manage our Python environments:
 
@@ -100,7 +100,7 @@ chmod +x Miniconda3-latest-MacOSX-x86_64.sh
 6. Follow the prompts to complete the installation.
 7. Close and reopen Terminal to apply the changes.
 
-### Installing CURSOR IDE (MacOS)
+### 1.5 Installing CURSOR IDE (MacOS) <a name="15-installing-cursor-ide-macos"></a>
 
 CURSOR IDE is an AI-powered fork of VSCode. To install it:
 
@@ -110,9 +110,9 @@ CURSOR IDE is an AI-powered fork of VSCode. To install it:
 4. Drag the CURSOR app to your Applications folder.
 5. Open CURSOR from your Applications folder.
 
-## Windows Setup
+## 2. Windows Setup <a name="2-windows-setup"></a>
 
-### Installing Git (Windows)
+### 2.1 Installing Git (Windows) <a name="21-installing-git-windows"></a>
 
 1. Visit the Git for Windows download page: https://git-scm.com/download/win
 2. Download the latest version for your system architecture (32-bit or 64-bit).
@@ -124,7 +124,7 @@ CURSOR IDE is an AI-powered fork of VSCode. To install it:
 git --version
 ```
 
-### Installing Python (Windows)
+### 2.2 Installing Python (Windows) <a name="22-installing-python-windows"></a>
 
 1. Visit the official Python website: https://www.python.org/downloads/windows/
 2. Download the latest Python 3 release (64-bit version recommended).
@@ -137,7 +137,7 @@ git --version
 python --version
 ```
 
-### Installing Miniconda (Windows)
+### 2.3 Installing Miniconda (Windows) <a name="23-installing-miniconda-windows"></a>
 
 1. Visit the Miniconda download page: https://docs.conda.io/en/latest/miniconda.html
 2. Download the Windows installer (choose the appropriate version for your system architecture).
@@ -150,7 +150,7 @@ python --version
 conda --version
 ```
 
-### Installing CURSOR IDE (Windows)
+### 2.4 Installing CURSOR IDE (Windows) <a name="24-installing-cursor-ide-windows"></a>
 
 1. Visit the CURSOR IDE website: https://cursor.so/
 2. Click on the "Download" button for Windows.
@@ -158,9 +158,9 @@ conda --version
 4. Follow the installation wizard to complete the process.
 5. Launch CURSOR IDE from the Start menu.
 
-## Setting Up Your Development Environment
+## 3. Setting Up Your Development Environment <a name="3-setting-up-your-development-environment"></a>
 
-### Creating a Conda Environment
+### 3.1 Creating a Conda Environment <a name="31-creating-a-conda-environment"></a>
 
 1. Open Terminal (MacOS) or Command Prompt (Windows).
 2. Create a new Conda environment with Python 3.9 (or your preferred version):
@@ -175,7 +175,7 @@ conda create --name streamlit-env python=3.12
 conda activate streamlit-env
 ```
 
-### Selecting the Conda Environment in CURSOR IDE
+### 3.2 Selecting the Conda Environment in CURSOR IDE <a name="32-selecting-the-conda-environment-in-cursor-ide"></a>
 
 1. Open CURSOR IDE.
 2. Open the Command Palette:
@@ -184,7 +184,7 @@ conda activate streamlit-env
 3. Type "Python: Select Interpreter" and select it.
 4. Choose the interpreter that matches your Conda environment (e.g., `streamlit-env`).
 
-### Installing Required Packages
+### 3.3 Installing Required Packages <a name="33-installing-required-packages"></a>
 
 1. In CURSOR IDE, open a new terminal:
    - On MacOS: `Terminal > New Terminal`
@@ -207,9 +207,9 @@ Alternatively, if you have a `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-## Setting Up Your Streamlit Project
+## 4. Setting Up Your Streamlit Project <a name="4-setting-up-your-streamlit-project"></a>
 
-### Creating a New Streamlit App
+### 4.1 Creating a New Streamlit App <a name="41-creating-a-new-streamlit-app"></a>
 
 1. In CURSOR IDE, create a new file called `app.py`.
 2. Add the following code to create a basic Streamlit app:
@@ -223,7 +223,7 @@ st.write("Welcome to my Streamlit application!")
 # Add more Streamlit components as needed
 ```
 
-### Setting Up GitHub Integration
+### 4.2 Setting Up GitHub Integration <a name="42-setting-up-github-integration"></a>
 
 1. Create a new repository on GitHub:
    - Go to https://github.com/new
@@ -239,7 +239,7 @@ st.write("Welcome to my Streamlit application!")
 7. Enter the URL of your GitHub repository and press Enter.
 8. Push your changes to GitHub by clicking on "Publish Branch" in the Source Control view.
 
-### Creating Essential Files
+### 4.3 Creating Essential Files <a name="43-creating-essential-files"></a>
 
 1. Create a `.gitignore` file:
    - In CURSOR IDE, create a new file named `.gitignore`
@@ -299,9 +299,9 @@ enableCORS = false
 db_username = "your_username"
 db_password = "your_password"
 ```
-## Running and Deploying Your Streamlit App
+## 5. Running and Deploying Your Streamlit App <a name="5-running-and-deploying-your-streamlit-app"></a>
 
-### Running Your Streamlit App Locally
+### 5.1 Running Your Streamlit App Locally <a name="51-running-your-streamlit-app-locally"></a>
 
 1. In CURSOR IDE, open a terminal (if not already open).
 2. Ensure your Conda environment is activated:
@@ -319,7 +319,7 @@ streamlit run app.py
 
 5. Your default web browser should open automatically, displaying your Streamlit app. If not, copy the URL shown in the terminal and paste it into your browser.
 
-### Deploying to GitHub Pages
+### 5.2 Deploying to GitHub Pages <a name="52-deploying-to-github-pages"></a>
 
 While GitHub Pages doesn't directly support running Python applications, you can use it to host a static website that links to your Streamlit app deployed on a platform like Streamlit Community Cloud. Here's how to set it up:
 
