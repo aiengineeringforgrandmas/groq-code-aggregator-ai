@@ -2,34 +2,30 @@
 
 This guide will walk you through the process of setting up your development environment for working with Git, Github, Conda, Python, the CURSOR IDE (an AI-powered fork of VSCode) and Streamlit. 
 
-## Table of Contents
+## Table of Contents 📑
 
-1. [MacOS Setup](#macos-setup)
-   1.1. [Installing Homebrew](#installing-homebrew)
-   1.2. [Installing Git](#installing-git-macos)
-   1.3. [Installing Python](#installing-python-macos)
-   1.4. [Installing Miniconda](#installing-miniconda-macos)
-   1.5. [Installing CURSOR IDE](#installing-cursor-ide-macos)
-
-2. [Windows Setup](#windows-setup)
-   2.1. [Installing Git](#installing-git-windows)
-   2.2. [Installing Python](#installing-python-windows)
-   2.3. [Installing Miniconda](#installing-miniconda-windows)
-   2.4. [Installing CURSOR IDE](#installing-cursor-ide-windows)
-
-3. [Setting Up Your Development Environment](#setting-up-your-development-environment)
-   3.1. [Creating a Conda Environment](#creating-a-conda-environment)
-   3.2. [Selecting the Conda Environment in CURSOR IDE](#selecting-the-conda-environment-in-cursor-ide)
-   3.3. [Installing Required Packages](#installing-required-packages)
-
-4. [Setting Up Your Streamlit Project](#setting-up-your-streamlit-project)
-   4.1. [Creating a New Streamlit App](#creating-a-new-streamlit-app)
-   4.2. [Setting Up GitHub Integration](#setting-up-github-integration)
-   4.3. [Creating Essential Files](#creating-essential-files)
-
-5. [Running and Deploying Your Streamlit App](#running-and-deploying-your-streamlit-app)
-   5.1. [Running Your Streamlit App Locally](#running-your-streamlit-app-locally)
-   5.2. [Deploying to GitHub Pages](#deploying-to-github-pages)
+- [1. MacOS Setup](#1-macos-setup)
+  - [1.1 Installing Homebrew](#11-installing-homebrew)
+  - [1.2 Installing Git](#12-installing-git-macos)
+  - [1.3 Installing Python](#13-installing-python-macos)
+  - [1.4 Installing Miniconda](#14-installing-miniconda-macos)
+  - [1.5 Installing CURSOR IDE](#15-installing-cursor-ide-macos)
+- [2. Windows Setup](#2-windows-setup)
+  - [2.1 Installing Git](#21-installing-git-windows)
+  - [2.2 Installing Python](#22-installing-python-windows)
+  - [2.3 Installing Miniconda](#23-installing-miniconda-windows)
+  - [2.4 Installing CURSOR IDE](#24-installing-cursor-ide-windows)
+- [3. Setting Up Your Development Environment](#3-setting-up-your-development-environment)
+  - [3.1 Creating a Conda Environment](#31-creating-a-conda-environment)
+  - [3.2 Selecting the Conda Environment in CURSOR IDE](#32-selecting-the-conda-environment-in-cursor-ide)
+  - [3.3 Installing Required Packages](#33-installing-required-packages)
+- [4. Setting Up Your Streamlit Project](#4-setting-up-your-streamlit-project)
+  - [4.1 Creating a New Streamlit App](#41-creating-a-new-streamlit-app)
+  - [4.2 Setting Up GitHub Integration](#42-setting-up-github-integration)
+  - [4.3 Creating Essential Files](#43-creating-essential-files)
+- [5. Running and Deploying Your Streamlit App](#5-running-and-deploying-your-streamlit-app)
+  - [5.1 Running Your Streamlit App Locally](#51-running-your-streamlit-app-locally)
+  - [5.2 Deploying to GitHub Pages](#52-deploying-to-github-pages)
 
 Let's begin with the setup process for MacOS users:
 
