@@ -1,6 +1,5 @@
 <div style="background-color:#2e3440; padding:10px; border-radius:5px; border:1px solid #3b4252;">
-  <h2 style="color:#8fbcbb; font-weight:bold; display:inline;">Ag·​gre·​ga·​tor </h2> 
-  <span style="color:#88c0d0; font-style:italic;">/ˈa-grə-ˌgā-tər/</span>
+  <h2 style="color:#8fbcbb; font-weight:bold; display:inline;">Ag·​gre·​ga·​tor /ˈa-grə-ˌgā-tər/</h2> 
   <hr style="border:0.5px solid #3b4252;">
 
   <ol style="color:#eceff4;">
@@ -15,6 +14,7 @@
       <li>Developers can use CodeAggregatorAI as an <span style="color:#bf616a; font-weight:bold;">aggregator</span> to combine code from multiple projects into a unified codebase for analysis or training AI models.</li>
     </ul>
   </div>
+</div>
 </div>
 
 ## Introduction <a name="1-introduction"></a>
