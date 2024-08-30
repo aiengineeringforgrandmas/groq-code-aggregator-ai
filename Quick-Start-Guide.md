@@ -117,7 +117,7 @@ Groq API Key: This special key allows you to tap into Groq's powerful AI models.
 
 2. Install required packages:
    ```
-   pip install streamlit groq python-dotenv pandas PyPDF2 streamlit-extras streamlit-option-menu streamlit-lottie requests
+   pip install streamlit groq python-dotenv pandas streamlit-extras streamlit-option-menu streamlit-lottie requests
    ```
 
 3. Set up environment variables:
